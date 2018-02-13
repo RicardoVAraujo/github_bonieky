@@ -88,3 +88,8 @@ git remote // E PARA VER COM MAIS DETALHES git remove -v
 
 // COMANDO PARA COLOCAR O REPOSITORIO LOCAL NA NUVEM
 git push -u origin master
+
+
+//COMANDO PARA FAZER AS ALTERAÇOES DO LOCAL PARA O REMOTO (PRIMEIRO FAZ O COMMIT NO LOCAL git commit -am "BLA BLA")
+
+git push origin master
