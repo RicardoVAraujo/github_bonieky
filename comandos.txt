@@ -38,3 +38,11 @@
  //VER TODOS COMMITS FEITOS DAQUELE REPOSITORIO
 
  git log
+
+ //PARA SABER EM QUAL BRENCH EU TO (TIPO VERSAO MASTER, 2.0, ETC );
+
+ git branch
+
+ //COMMITAR SEM TER Q PASSAR PELO "GIT ADD -A"
+
+ git commit -am "Terceiro commit muito bom"
