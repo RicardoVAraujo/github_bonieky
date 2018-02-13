@@ -50,3 +50,14 @@
  //VOLTAR AO Q TAVA ANTES, (SOFT = VOLTAR AO Q ESTAVA ANTES POREM COM ACESSO AOS ARQUIVOS... MANTER OS ARQUIVOS E VOLTAR COMO ESTAVA ANTES DE DAR O COMMIT E O ADD -A, HARD = VOLTAR E APAGAR TUDO)
 
  git reset --hard (id do commit, vejo em git log)
+
+ // CRIAR NOVO BRANCH
+
+ git branch test
+
+
+ // TROCAR DE BRANCH 
+
+ git checkout test
+
+
