@@ -1,0 +1,40 @@
+//PARA TROCAR MEU NOME
+ git config --global user.name "kaleniuk2"
+
+// PARA DEFINIR EMAIL
+ git config --global user.email "guilhermekaleniuk@hotmail.com"
+
+ //PARA DEFINIR O EDITOR QUE ESTOU USANDO NO MOMENTO (NÃO MUITO COMUM)
+  git config --global core.editor sub
+
+ //PARA VER QUAL USUARIO ESTÁ CADASTRADO NA MAQUINA
+
+ git config user.name
+
+ //PARA VER O EMAIL QUE ESTÁ CADASTRADO
+ git config user.email
+
+ //PARA VER TUDO Q ESTÁ CADASTRADO
+
+ git config --list
+
+ // PARA CRIAR UM REPOSITORIO
+
+ git init
+
+
+ //VER OQ FOI ADICIONADO, OQ FOI ALTERADO ETC, QUANDO TIVER EM VERMELHO É PQ O GIT NUNCA VIU
+
+ git status
+
+ // PAARA ADICIONAR NO GIT, E ELE PASSAR A MONITORAR OQ FOI ALTERADO 
+
+ git add -A
+
+ //PARA FAZER O COMMIT
+
+ git commit -m "Primeiro commit dahora"
+
+ //VER TODOS COMMITS FEITOS DAQUELE REPOSITORIO
+
+ git log
